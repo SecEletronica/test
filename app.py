@@ -10,7 +10,7 @@ title1 = st.text_input('Tensão L1')
 title2 = st.text_input('Tensão L2')
 title3 = st.text_input('Tensão L3')
 
-st.title('Às ', hora, 'As tensoes de entrada sao:',title1,'KV, ',title2,'KV, ',title3,'KV' )
+st.write('Às ', hora, 'As tensoes de entrada sao:',title1,'KV, ',title2,'KV, ',title3,'KV' )
    
 
 
